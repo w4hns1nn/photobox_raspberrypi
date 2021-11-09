@@ -1,12 +1,12 @@
 # photobox_raspberrypi
 
-With love made photobox in python for raspberrypi.
+With love made photobox in python for raspberrypi and any DLSR camera.
 
 ## Hardware:
 - raspberry pi 
 - button for a few bucks
 - wood box 
-- camera
+- camera DLSR
 - old screen to display  the photos
 
 ## Software
