@@ -7,6 +7,7 @@ With love made photobox in python for raspberrypi and any DLSR camera.
 - button for a few bucks
 - wood box 
 - camera DLSR
+- flash light (optional) works as well
 - old screen to display  the photos
 
 ## Software
