@@ -21,5 +21,8 @@ Setup:
 - Plugin the camera into the pi
 - Hit start.sh
 
+## Gimmicks
+you can add small videos which are shown just before the photo is taken
+
 Have fun 
 ;)
