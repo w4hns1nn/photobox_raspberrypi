@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28bf30ab-3260-44d2-be7c-6df2315e3295" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controls/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controls/button_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controls/camera_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/root.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/countdown.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/diashow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/widgets/video_countdown.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/FunnyGifs/monkey.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/loading1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/loading2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/loading3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PhotoBox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PhotoBox.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/AdorableBlandIndri-mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FunnyVideos/AdorableBlandIndri-mobile.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/AncientTemptingAmericantoad-mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FunnyVideos/AncientTemptingAmericantoad-mobile.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/CharmingOpulentAlligator-mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FunnyVideos/CharmingOpulentAlligator-mobile.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/DecentLividLeafbird-mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FunnyVideos/DecentLividLeafbird-mobile.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/DisguisedHonoredCoelacanth-mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FunnyVideos/DisguisedHonoredCoelacanth-mobile.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/EarlyRecklessAntarcticgiantpetrel-mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FunnyVideos/EarlyRecklessAntarcticgiantpetrel-mobile.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/EmptySimplisticHyracotherium-mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FunnyVideos/EmptySimplisticHyracotherium-mobile.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/ExaltedShockingEastsiberianlaika-mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FunnyVideos/ExaltedShockingEastsiberianlaika-mobile.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/FastImportantAmericanbittern-mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FunnyVideos/FastImportantAmericanbittern-mobile.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/GiftedPerkyHarrier-mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FunnyVideos/GiftedPerkyHarrier-mobile.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/HeavyFixedFairybluebird-mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FunnyVideos/HeavyFixedFairybluebird-mobile.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/IdolizedLiquidGermanshorthairedpointer-mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FunnyVideos/IdolizedLiquidGermanshorthairedpointer-mobile.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/MatureWatchfulArgentinehornedfrog-mobile.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/MedicalIdleGuineapig-mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FunnyVideos/MedicalIdleGuineapig-mobile.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/PeskyScaryGelding-mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FunnyVideos/PeskyScaryGelding-mobile.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/PessimisticHandyCarpenterant-mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FunnyVideos/PessimisticHandyCarpenterant-mobile.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/QueasyTinyCarp-mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FunnyVideos/QueasyTinyCarp-mobile.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunnyVideos/ReasonableHorribleBumblebee-mobile.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FunnyVideos/ReasonableHorribleBumblebee-mobile.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/loading.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/loading.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/no-camera.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/no-camera.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="28bf30ab-3260-44d2-be7c-6df2315e3295" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
