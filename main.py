@@ -39,14 +39,14 @@ from kivy.properties import StringProperty
 from kivy.core.window import Window
 import time
 from kivy.clock import Clock
-from gpiozero import Button
-from gpiozero import LED
+#from gpiozero import Button
+#from gpiozero import LED
 import threading
 import os
 import subprocess
 from PIL import Image
 from kivy.uix.image import Image as kvImage
-import gphoto2 as gp
+# import gphoto2 as gp
 import io
 
 DURATION_OF_TAKE_PHOTO = 0.5
@@ -55,6 +55,7 @@ DURATION_DIASHOW = 3
 
 photo_busy = False
 event_rotate_picture = None
+
 
 class myVideo(VideoPlayer):
     def __init__(self, finish_callback, **kwargs):
@@ -75,7 +76,7 @@ class PicturesApp(App):
         # Make diashow based on taken pictures
         self.picture = None # The picture which is shown in fullscreen when idle
         global event_rotate_picture
-        event_rotate_picture =  Clock.create_trigger(
+        event_rotate_picture = Clock.create_trigger(
             lambda dt: self.load_random_taken_photo(),
             timeout=DURATION_DIASHOW,
             interval=True
@@ -84,7 +85,7 @@ class PicturesApp(App):
         # Countdown events
         # Before a photo is taken a countdown is shown as video or as 321 timer.
         # This is the media player init and text label init        
-        self.countdown_vids = glob(join(dirname(__file__), 'FunnyVideos', '*'))
+        self.countdown_vids = glob(join(dirname(__file__), 'assets/FunnyVideos', '*'))
         self.video_countdown = None #
         self.count_down_label = None # 
 
@@ -295,9 +296,7 @@ class PicturesApp(App):
             self.take_photo_finished,
             DURATION_OF_SHOW_TAKEN_PHOTO - DURATION_DIASHOW
         )
-        
-        
-            
+
     def build(self):
         self.load_random_taken_photo()
 
