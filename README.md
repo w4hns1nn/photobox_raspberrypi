@@ -20,6 +20,7 @@ With love made photobox in python for raspberrypi and any DLSR camera.
 Setup:
 - Change settings in the camera to image format (standard/jpg) don't use raw images
 - Plugin the camera into the pi
+- chmod u+x start.sh
 - Hit start.sh
 
 ## Gimmicks

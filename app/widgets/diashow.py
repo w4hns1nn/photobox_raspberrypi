@@ -3,6 +3,7 @@ import random
 import threading
 
 from kivy.core.window import Window
+from kivy.core.image import Image as CoreImage
 from kivy.uix.image import Image as kvImage
 from kivy.clock import Clock
 from kivy.uix.widget import Widget
@@ -31,8 +32,12 @@ class diashow:
         # remove prev image from root if existant
         if hasattr(self, 'curr_img') and self.curr_img is not None:
             self.root_widget.remove_widget(self.curr_img)
-
-        self.curr_img = kvImage(source=source, size=Window.size, anim_delay=0, allow_stretch=True)
+        
+        if source is None:
+            self.next_img()
+        elif type(source) == str:
+            self.curr_img = kvImage(source=source, size=Window.size, anim_delay=0, allow_stretch=True)
+           
         # add to root
         self.root_widget.add_widget(self.curr_img)
         self.thread_lock.release()

@@ -1,4 +1,6 @@
 #!/bin/bash
+#!/bin/sh
+$(pkill -f "gphoto2")
 while true
 do
 	npy=$(pgrep -c python3)	
